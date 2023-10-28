@@ -8,6 +8,7 @@ Usage
 bash
 Copy code
 ./backup_mysql_databases_amazon_rds.sh
+
 Similar to the first script, this script is designed for creating backups of MySQL databases hosted on Amazon RDS. It connects to the RDS instance, retrieves the list of databases, and creates backups for each database.
 
 Don't forget to update the HOST, USER, PASSWORD, and BACKUP_DIR variables with your Amazon RDS server information and backup directory path.
@@ -17,6 +18,7 @@ Usage
 bash
 Copy code
 ./your_third_script.sh
+
 You can provide a brief description of your third script here, including its purpose, usage, and any specific configuration variables it requires.
 
 Feel free to customize this README to provide more details or additional information about your scripts. Make sure to include instructions on how to run the scripts and any dependencies they may have.
